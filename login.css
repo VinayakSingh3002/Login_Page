@@ -1,0 +1,117 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+    height:500px;
+}
+.cont1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:center;
+      background-color: #0C63E7;
+      color:white;
+      border-radius: 35% 20% / 20% 35%;
+      padding:20px;
+}
+.welcome{
+    font-size: 2.5rem;
+    padding:10px;
+    margin: 0;
+}
+.wel_para{
+    padding-top:10px;
+    font-size: 20px;
+    margin:0;
+}
+.wel_btn{
+    padding:10px 30px;
+    font-size: 16px;
+    margin-top:30px;
+    color:white;
+    background-color:transparent;
+    border-radius: 90px 60px 90px 60px;
+    border:1px solid white;
+    cursor:pointer;
+}
+.wel_btn:hover{
+    border:1px solid #0C63E7;
+    background-color: white;
+    color:#0C63E7;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    padding:40px;
+    align-items: center;
+    color: #0C63E7;
+}
+.cre_acc{
+    font-size:3rem;
+    margin:0;
+    margin-bottom: 20px;
+}
+.image1{
+    width:30px;
+    padding:5px 10px;
+}
+.regi_info{
+    font-size: 16px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.forminfo{
+    margin-top:15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.name_text,.email_text, .pass_text{
+    flex:1;
+    margin-bottom:15px;
+    border:1px solid #0C63E7;
+    padding:15px 70px;
+    border-radius: 20px 10px;
+    
+}
+.name_text::placeholder{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#0C63E7;
+    
+}
+.email_text::placeholder{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#0C63E7;
+}
+.pass_text::placeholder{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#0C63E7;
+}
+.Acc_btn{
+    padding:10px 40px;
+    font-size: 16px;
+    color:#0C63E7;
+    background-color:transparent;
+    border-radius: 90px 60px 90px 60px;
+    border:1px solid #0C63E7; 
+    cursor:pointer;  
+    margin-top:10px;
+    
+}
+.Acc_btn:hover{
+    background-color: #0C63E7;
+    color:white;
+
+}
+
+
